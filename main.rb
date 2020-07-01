@@ -17,8 +17,8 @@ end
 
 def configure
  Trello.configure do |config|
-  config.developer_public_key = 'd4a951d50eb672ceece4e4c28144c13a' # The "key" from step 1
-  config.member_token = '47137879beeab745b970a0d21067bf4b78236049e0c85a61c961fd47fbf95623' # The token from step 2.
+  config.developer_public_key = 'Trelloから発行された開発者向けAPIキー' 
+  config.member_token = 'Trelloアカウントへのアクセス用トークン' 
  end
 end
 
